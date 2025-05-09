@@ -1,0 +1,62 @@
+### Arquivos do IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+### Arquivos de Build ###
+target/
+bin/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+### Arquivos do Maven ###
+.mvn/
+mvnw
+mvnw.cmd
+mvnv
+mvnv.cmd
+
+### Logs ###
+*.log
+logs/
+
+### Arquivos de Configuração Local ###
+.env
+*.properties
+*.yml
+!application.yml
+!bootstrap.yml
+
+### Arquivos do Sistema Operacional ###
+.DS_Store
+Thumbs.db
+
+### Arquivos do Docker ###
+docker-compose.yml
+docker-compose.override.yml
+!Dockerfile
+
+### Arquivos de Teste ###
+**/test-output/
+
+### Outros ###
+*.swp
+*.bak
+*.tmp
+*.orig
+*~
+*.cache
+*.diff
+*.patch
+*.sublime-*
+*.code-workspace
+
+### Arquivos Específicos do Projeto ###
+HELP.md
